@@ -1,0 +1,58 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+.navbar {
+  background-color: #4d636f !important;
+}
+i,a{
+  color: #3a4b53 !important;
+}
+a:hover{
+  color: #000 !important;
+}
+.nav-mo {
+  background-color: #3a4b53 !important;
+  transition: .5s;
+  color: rgb(255, 255, 255) !important;
+  border: transparent !important;
+}
+.nav-link{
+  background-color: transparent !important;
+  border: transparent !important;
+}
+.nav-link:hover {
+  background-color: #fff !important;
+  transition: .5s;
+}
+.btn-mo {
+  background-color: #7d97a5 !important;
+  color: #fff;
+  transition: .5s;
+}
+.btn-mo:hover ,.nav-mo:hover{
+  background-color: #eee !important;
+  color: #000000;
+}
+.text-color-1 {
+  background-color: #4d636f !important;
+  color: #ffff !important;
+}
+.text-color-2 {
+  background-color: #3a4b53 !important;
+  color: #ffff !important;
+}
+.text-color-3 {
+  background-color: #7d97a5 !important;
+  color: #000 !important;
+}
+.text-color-4 {
+    background-color: #d4dfe2 !important;
+    color: #7d97a5 !important;
+}
+.form-control:focus {
+    border: #000 solid !important ;
+    box-shadow: 0 0 0 0.25rem rgb(0, 0, 0);
+}
+footer {
+    background-color: #4d636f !important;
+}
