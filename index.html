@@ -20,6 +20,10 @@
               Logo
             </a>
           </div>
+          <button class="navbar-toggler position-absolute end-0 me-1 top-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
           <div class="collapse navbar-collapse list-group" id="navbarSupportedContent" style="height: 40px;">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
@@ -35,21 +39,17 @@
                 <a class="nav-link icon-link-hover px-4" href="#"><i class="fa fa-bell"></i></a>
               </li>
             </ul>
-            
           </div>
           <ul class="navbar-nav me-auto">
             <li class="nav-item ms-end">
               <a class="nav-link icon-link-hover px-4 d-none d-sm-block" href="#"><img src="images/avatar2.png" alt="" width="25" height="25" class="rounded-circle"></a>
             </li>
           </ul>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
         </div>
     </nav>
     <div class="container mt-2 w-100">
         <div class="row justify-content-evenly">
-          <div class="col-lg-2 col-md-2   mb-2 p-2 mx-md-1">
+          <div class="col-lg-2 col-md-2 mb-2 p-2 mx-md-1">
             <div class="row">
               <div class="col-md-12 mb-2 p-2 w-100">
                 <div class="card p-3 shadow">
@@ -127,13 +127,16 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-7 col-md-6   mb-2 p-2 mx-md-1">
+          <div class="col-lg-7 col-md-6 mb-2 p-2 mx-md-1">
             <div class="row">
               <div class="ol-md-12 mb-2 p-2 w-100">
                 <div class="card p-3 w-100 shadow">
                   <label for="name" class="form-label text-secondary fs-6 mb-3">Social Media template by BootStrap
                   </label>
-                  <input type="text" class="form-control mb-3" id="name" value="Status: Feeling Blue">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
                   <a class="nav-mo icon-link-hover list-group-item list-group-item-action py-2 px-3" href="#" style="width: fit-content;">
                     <i class="fa fa-pencil-alt mx-2"></i>
                     <span>Post</span>
@@ -223,7 +226,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-2   mb-2 p-2 mx-md-1">
+          <div class="col-lg-2 col-md-2  mb-2 p-2 mx-md-1">
             <div class="row">
               <div class="col-md-12 mb-2 text-center">
                 <div class="card shadow w-100 p-2">
@@ -268,7 +271,6 @@
           </div>
         </div>
     </div>
-    
     <footer class="bottom-0 p-3 text-center text-white text-capitalize">Copyright ©2024 All rights reserved | This template is made with by Mohamed Elsisi</footer>
     <script src="js/fontaw.min.js"></script>
     <script src="js/bootstrap.js"></script>

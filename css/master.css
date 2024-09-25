@@ -10,6 +10,9 @@ i,a{
 a:hover{
   color: #000 !important;
 }
+.navbar-toggler:focus {
+  box-shadow: none;
+}
 .nav-mo {
   background-color: #3a4b53 !important;
   transition: .5s;
@@ -50,8 +53,8 @@ a:hover{
     color: #7d97a5 !important;
 }
 .form-control:focus {
-    border: #000 solid !important ;
-    box-shadow: 0 0 0 0.25rem rgb(0, 0, 0);
+    border: 1px #000 solid !important ;
+    box-shadow: none;
 }
 footer {
     background-color: #4d636f !important;
